@@ -9,18 +9,21 @@ function onclick_event(clicked)
     if (clicked == "upbutton") {
         up += 1
         document.getElementById("text").innerHTML ="Last button pressed: UP:" + ' ' + up;
+        return up;
     }
     else if (clicked == "downbutton"){
         down += 1
         document.getElementById("text").innerHTML ="Last button pressed: DOWN:" + ' ' + down;
-        
+        return down;
     }
     else if (clicked == "leftbutton"){
         left += 1
         document.getElementById("text").innerHTML ="Last button pressed: LEFT:" + ' ' + left;
+        return left;
     }
     else if (clicked == "rightbutton"){
         right += 1
         document.getElementById("text").innerHTML ="Last button pressed: RIGHT:" + ' ' + right;
+        return right;
     }
 }
