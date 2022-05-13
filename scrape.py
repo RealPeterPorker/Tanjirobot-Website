@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-page = requests.get("https://dataquestio.github.io/web-scraping-pages/simple.html")
+page = requests.get("https://realpeterporker.github.io/Tanjirobot-Website/")
 soup = BeautifulSoup(page.content, 'html.parser')
-#print(soup.prettify())
-print(list(soup.children))
+print(soup.prettify())
+#print(list(soup.children))
 
